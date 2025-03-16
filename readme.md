@@ -27,7 +27,7 @@ app --host <IP> --port 9169 --reload
 
 Architecture
 
-![Architecture](https://github.com/[vikas]/[keyword-routing]/blob/[main]/static/arch.jpg?raw=true)
+![Architecture](static/arch.jpg)
 
 ```
 1. PDFs are loaded, chunked using langchain docloader.
