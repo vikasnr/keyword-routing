@@ -31,7 +31,7 @@ app --host <IP> --port 9169 --reload
 
 ##### Architecture
 
-![Architecture](static/arch.png)
+![Architecture](static/architecture.png)
 
 ```
 1. PDFs are loaded, chunked using langchain docloader.
