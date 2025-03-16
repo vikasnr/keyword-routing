@@ -12,7 +12,6 @@ from chromadb import HttpClient
 from chromadb.utils import embedding_functions
 
 from PyPDF2 import PdfReader
-from typing import List
 
 from agents.PDFAgent import PDFAgent
 from agents.AggregatorAgent import AggregatorAgent
@@ -21,6 +20,7 @@ from agents.KeywordDictionary import KeywordDictionary
 from llm import get_llm
 
 llm = get_llm()
+#define chroma client
 chroma_client = HttpClient(host="localhost", port=9158)
 
 
@@ -67,6 +67,7 @@ for db_name, pdf_path in pdf_files.items():
     else:
         chunk_and_store(pdf_path, db_name)
 
+#get keywords
 kd = KeywordDictionary(file_path="keywords.json")
 keywords = kd.get_keywords()
 
@@ -85,7 +86,7 @@ def query_pdf(request: QueryRequest):
     try:
         question = request.query
 
-        # manger agent finding appropriate bots
+        # manager agent finding appropriate bots
         manager_agent = ManagerAgent(llm,keywords)
         bots = manager_agent.route(question)
 
