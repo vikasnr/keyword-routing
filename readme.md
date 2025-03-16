@@ -27,7 +27,7 @@ app --host <IP> --port 9169 --reload
 
 Architecture
 
-![Architecture](static/arch.jpg)
+![Architecture](static/arch.png)
 
 ```
 1. PDFs are loaded, chunked using langchain docloader.
@@ -42,7 +42,10 @@ Architecture
 10. These answers are passed to aggregator agent that aggregates data and formats to markdown and return response to frontend.
 ```
 
-![frontend](https://github.com/[vikas]/[pdfagents]/blob/[main]/arch.jpg?raw=true)
+Chat app screenshots:
+![frontend](static/chat1.png)
+![frontend](static/chat2.png)
+![frontend](static/chat3.png)
 
 
 
