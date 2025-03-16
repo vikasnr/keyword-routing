@@ -51,7 +51,7 @@ pdf1 = "insurance"
 pdf2 = "rivers"
 pdf3 = "wildlife"
 
-pdfs_folder = '/home/vikasnr/codebase/crsl/pdfs'
+pdfs_folder = '../pdfs'
 
 # Load PDFs
 pdf_files = {pdf1: f"{pdfs_folder}/{pdf1}.pdf", 
