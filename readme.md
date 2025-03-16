@@ -31,7 +31,7 @@ app --host <IP> --port 9169 --reload
 
 ### Architecture
 
-![Architecture](static/architecture.png)
+![Architecture](static/arch.png)
 
 ### Workflow below -  Refer above image
 
