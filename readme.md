@@ -33,8 +33,9 @@ app --host <IP> --port 9169 --reload
 
 ![Architecture](static/architecture.png)
 
-```
 ##### Find below the explanation for each step in the architecture diagram.
+
+```
 1. PDFs are loaded, chunked using langchain docloader.
 2. Embedded are created for each chunk using embedding function  all-MiniLM-L6-v2.
 3. These embeddings are stored to chromadb.
