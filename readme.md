@@ -1,27 +1,27 @@
-### A langchain based approach to route requests in RAG
-#### Uses keyword extracted from pdfs to route requests to appropriate vectorstores
+## A langchain based approach to route requests in RAG
+### Uses keyword extracted from pdfs to route requests to appropriate vectorstores
 
 
-##### Create virtual env and install necessary packages
+### Create virtual env and install necessary packages
 ```
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-##### In this project I use chromadb as vectorstore. To start it as a service.
+### In this project I use chromadb as vectorstore. To start it as a service.
 
 ```
 chroma run --host localhost --port 9158 --path ./local_chroma_data
 ```
 
-##### To start frontend 
+### To start frontend 
 
 ```
 cd frontend
 streamlit run app.py --server.port 9170 --server.address <IP>
 ```
 
-##### To start backend
+### To start backend
 
 ```
 cd backed
@@ -29,11 +29,11 @@ uvicorn main:
 app --host <IP> --port 9169 --reload
 ```
 
-##### Architecture
+### Architecture
 
 ![Architecture](static/architecture.png)
 
-##### Workflow below -  Refer above image
+### Workflow below -  Refer above image
 
 ```
 1. PDFs are loaded, chunked using langchain docloader.
@@ -48,18 +48,18 @@ app --host <IP> --port 9169 --reload
 10. These answers are passed to aggregator agent that aggregates data and formats to markdown and return response to frontend.
 ```
 
-##### Chat app screenshots:
-###### QA 1
+### Chat app screenshots:
+#### QA 1
 
 ![frontend](static/chat1.png)
 
 
-###### QA 2
+#### QA 2
 
 ![frontend](static/chat2.png)
 
 
-###### QA 3
+#### QA 3
 
 ![frontend](static/chat3.png)
 
