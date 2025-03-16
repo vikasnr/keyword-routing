@@ -66,12 +66,12 @@ app --host <IP> --port 9169 --reload
 
 
 
-Below are some of resources I referred:
-
-[Unifying LLM-powered QA Techniques with Routing Abstractions](https://medium.com/better-programming/unifying-llm-powered-qa-techniques-with-routing-abstractions-438e2499a0d0)
-[Routing Langchain](https://www.youtube.com/watch?v=pfpIndq7Fi8&list=WL&index=55)
-[Routing in RAG Driven Applications](https://towardsdatascience.com/routing-in-rag-driven-applications-a685460a7220/)
-[Agent shortcomings](https://www.youtube.com/watch?v=KY8n96Erp5Q&t=592s)
+#### Below are some of resources I referred:
+[Rag From Scratch: Routing](https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_10_and_11.ipynb) \
+[Unifying LLM-powered QA Techniques with Routing Abstractions](https://medium.com/better-programming/unifying-llm-powered-qa-techniques-with-routing-abstractions-438e2499a0d0) \
+[Routing Langchain](https://www.youtube.com/watch?v=pfpIndq7Fi8&list=WL&index=55)\
+[Routing in RAG Driven Applications](https://towardsdatascience.com/routing-in-rag-driven-applications-a685460a7220/) \
+[Agent shortcomings](https://www.youtube.com/watch?v=KY8n96Erp5Q&t=592s)\
 
 
 
