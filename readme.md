@@ -24,7 +24,7 @@ streamlit run app.py --server.port 9170 --server.address <IP>
 ### To start backend
 
 ```
-cd backed
+cd backend
 uvicorn main:
 app --host <IP> --port 9169 --reload
 ```
