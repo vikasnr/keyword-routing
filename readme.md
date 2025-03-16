@@ -33,7 +33,7 @@ app --host <IP> --port 9169 --reload
 
 ![Architecture](static/architecture.png)
 
-##### workflow below -  refer above image
+##### Workflow below -  Refer above image
 
 ```
 1. PDFs are loaded, chunked using langchain docloader.
