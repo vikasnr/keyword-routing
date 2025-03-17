@@ -7,7 +7,7 @@
  - [Architecture](#Architecture)
  - [Workflow](#Workflow)
  - [Chat App](#Chat-App)
- - [Options to improve](#Options-to-improve)
+ - [Alternate Approaches](#Alternate-Approaches)
  - [Resources](#Resources)
 
 
@@ -88,7 +88,7 @@ screenshots:
 
 
 
-### Options to improve
+### Alternate Approaches
 Based on the problem at hand and its sophistication we could try below routing techniques.
 - LLM Completion Routers
 - LLM Function Calling Routers
