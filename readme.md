@@ -3,8 +3,8 @@
  - [How to run?](#How-to-run)
  - [Architecture](#Architecture)
  - [Workflow](#Workflow)
- - [Options-to-improve](#Options-to-improve)
- - [Below are some of resources I referred](#Below-are-some-of-resources-I-referred)
+ - [Options to improve](#Options-to-improve)
+ - [Resources](#Resources)
 
 
 
@@ -94,7 +94,9 @@ Based on the problem at hand and its sophistication we could try below routing t
 - Zero Shot Classification Routers
 - Language Classification Routers
 
-#### Below are some of resources I referred:
+#### Resources
+
+Below are some of resources I referred:
 
 [Rag From Scratch: Routing](https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_10_and_11.ipynb) \
 [Unifying LLM-powered QA Techniques with Routing Abstractions](https://medium.com/better-programming/unifying-llm-powered-qa-techniques-with-routing-abstractions-438e2499a0d0) \
