@@ -86,7 +86,7 @@ Refer above image
 
 
 
-#### Options to improve
+### Options to improve
 Based on the problem at hand and its sophistication we could try below routing techniques.
 - LLM Completion Routers
 - LLM Function Calling Routers
@@ -94,7 +94,7 @@ Based on the problem at hand and its sophistication we could try below routing t
 - Zero Shot Classification Routers
 - Language Classification Routers
 
-#### Resources
+### Resources
 
 Below are some of resources I referred:
 
