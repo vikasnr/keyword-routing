@@ -74,7 +74,7 @@ app --host <IP> --port 9169 --reload
 
 
 
-#### Based on the problem at and complexity needed we could try below routing techniques.
+#### Based on the problem at hand and its sophistication we could try below routing techniques.
 
 - LLM Completion Routers
 - LLM Function Calling Routers
