@@ -1,9 +1,10 @@
 
- [Create virtual env and install necessary packages](#virtual-env-and-installations)
- [How to run?](#How-to-run?)
- [Architecture](#Architecture)
- [Workflow below -  Refer above image](#Workflow)
- [Based on the problem at hand and its sophistication we could try below routing techniques.](#Things-to-improve)
+## Summary
+ - [Create virtual env and install necessary packages](#virtual-env-and-installations)
+ - [How to run?](#How-to-run?)
+ - [Architecture](#Architecture)
+ - [Workflow below -  Refer above image](#Workflow)
+ - [Based on the problem at hand and its sophistication we could try below routing techniques.](#Things-to-improve)
  
 
 
