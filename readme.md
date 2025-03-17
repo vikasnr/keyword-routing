@@ -8,6 +8,15 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
+### I am using Mistral API here. Export MISTRAL_API_KEY
+
+```
+
+export MISTRAL_API_KEY = "your-key"
+
+```
+Note you could you any other supported models. Update model details in llm.py
+
 ### In this project I use chromadb as vectorstore. To start it as a service.
 
 ```
@@ -65,8 +74,16 @@ app --host <IP> --port 9169 --reload
 
 
 
+#### Based on the problem at and complexity needed we could try below routing techniques.
+
+- LLM Completion Routers
+- LLM Function Calling Routers
+- Semantic Routers
+- Zero Shot Classification Routers
+- Language Classification Routers
 
 #### Below are some of resources I referred:
+
 [Rag From Scratch: Routing](https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_10_and_11.ipynb) \
 [Unifying LLM-powered QA Techniques with Routing Abstractions](https://medium.com/better-programming/unifying-llm-powered-qa-techniques-with-routing-abstractions-438e2499a0d0) \
 [Routing Langchain](https://www.youtube.com/watch?v=pfpIndq7Fi8&list=WL&index=55)\

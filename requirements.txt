@@ -1,0 +1,8 @@
+fastapi
+langchain
+langchain-community
+langchain-core
+PyPDF2
+streamlit
+chromadb
+langchain_mistralai

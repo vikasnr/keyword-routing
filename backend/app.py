@@ -5,7 +5,7 @@ from typing import List
 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_text_splitters import TokenTextSplitter
+# from langchain_text_splitters import TokenTextSplitter
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 from chromadb import HttpClient
