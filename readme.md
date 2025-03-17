@@ -3,6 +3,7 @@
  - [How to run?](#How-to-run)
  - [Architecture](#Architecture)
  - [Workflow](#Workflow)
+ - [Chat App](#Chat-App)
  - [Options to improve](#Options-to-improve)
  - [Resources](#Resources)
 
@@ -69,7 +70,8 @@ Refer above image
 10. These answers are passed to aggregator agent that aggregates data and formats to markdown and return response to frontend.
 ```
 
-### Chat app screenshots:
+### Chat App 
+screenshots:
 #### QA 1
 
 ![frontend](static/chat1.png)
