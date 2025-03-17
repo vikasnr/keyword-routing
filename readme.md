@@ -2,8 +2,8 @@
 ## Summary
  - [How to run?](#How-to-run)
  - [Architecture](#Architecture)
- - [Workflow below -  Refer above image](#Workflow)
- - [Based on the problem at hand and its sophistication we could try below routing techniques.](#Things-to-improve)
+ - [Workflow](#Workflow)
+ - [Options-to-improve](#Options-to-improve)
  - [Below are some of resources I referred](#Below-are-some-of-resources-I-referred)
 
 
@@ -53,7 +53,8 @@ app --host <IP> --port 9169 --reload
 
 ![Architecture](static/arch.png)
 
-### Workflow below -  Refer above image
+### Workflow 
+Refer above image
 
 ```
 1. PDFs are loaded, chunked using langchain docloader.
@@ -85,8 +86,8 @@ app --host <IP> --port 9169 --reload
 
 
 
-#### Based on the problem at hand and its sophistication we could try below routing techniques.
-
+#### Options to improve
+Based on the problem at hand and its sophistication we could try below routing techniques.
 - LLM Completion Routers
 - LLM Function Calling Routers
 - Semantic Routers
