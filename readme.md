@@ -1,5 +1,10 @@
 
- [A langchain based approach to route requests in RAG (read this first)](#starquickly-download-multiple-extensions)
+ [Create virtual env and install necessary packages](#virtual-env-and-installations)
+ [How to run?](#How-to-run?)
+ [Architecture](#Architecture)
+ [Workflow below -  Refer above image](#Workflow)
+ [Based on the problem at hand and its sophistication we could try below routing techniques.](#Things-to-improve)
+ 
 
 
 
@@ -7,13 +12,14 @@
 ### Uses keyword extracted from pdfs to route requests to appropriate vectorstores
 
 
-### Create virtual env and install necessary packages
+### How to run?
+#### Create virtual env and install necessary packages
 ```
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
-### I am using Mistral API here. Export MISTRAL_API_KEY
+#### I am using Mistral API here. Export MISTRAL_API_KEY
 
 ```
 
@@ -22,20 +28,20 @@ export MISTRAL_API_KEY = "your-key"
 ```
 Note you could you any other supported models. Update model details in llm.py
 
-### In this project I use chromadb as vectorstore. To start it as a service.
+#### In this project I use chromadb as vectorstore. To start it as a service.
 
 ```
 chroma run --host localhost --port 9158 --path ./local_chroma_data
 ```
 
-### To start frontend 
+#### To start frontend 
 
 ```
 cd frontend
 streamlit run app.py --server.port 9170 --server.address <IP>
 ```
 
-### To start backend
+#### To start backend
 
 ```
 cd backend
